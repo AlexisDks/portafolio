@@ -241,6 +241,7 @@ body {
 .galeria-habilidades {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
 }
 
 .score {
@@ -537,5 +538,6 @@ footer {
 @media screen and (max-width: 550px) {
     .galeria-habilidades {
         grid-template-columns: repeat(2, 1fr);
+        -ms-grid-columns: 1fr 1fr;
     }
 }
