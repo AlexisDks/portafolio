@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miller Desarrollador FullStack</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+      integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- INICIO -->
+    <span class="sombra">
+      <section id="inicio" class="inicio">
+        <div class="contenido">
+          <header>
+            <div class="logo">
+              <i class="fa-brands fa-connectdevelop"></i>
+              <h1>Miller</h1>
+            </div>
+            <nav id="nav" class="nav">
+              <a href="#inicio">Hogar</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#habilidades">Habilidades</a>
+              <a href="#trabajos">Trabajos</a>
+              <a href="#contacto">Contacto</a>
+            </nav>
+
+            <!-- Icono menu mobile -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a
+                href="https://www.linkedin.com/in/millerespinoza/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://w.app/1FytJ6" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </header>
+
+          <div class="fila">
+            <div class="col">
+              <h2>Desarrollador Junior</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos,
+                impedit voluptatum beatae dolores maiores hic aut perferendis
+                nam.
+              </p>
+              <a
+                href="./assets/docs/CV-miller-jean-carlos-espinoza-gonzales.pdf"
+                download="CV_Miller-Espinoza-Gonzales.pdf"
+              >
+                <button class="btn btn-1">Descargar CV</button></a
+              >
+            </div>
+
+            <div class="col">
+              <div class="contenedor-img">
+                <img src="./assets/img/foto-inicio.png" alt="Banner 1" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </span>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <h3>Desarrollo Web</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="icono color2">
+              <div class="circulo">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+            </div>
+            <h3>Diseño Web</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="icono color3">
+              <div class="circulo">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+            </div>
+            <h3>Desarrollo Movil</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-solid fa-server"></i>
+              </div>
+            </div>
+            <h3>Administracion Servidores</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="icono color2">
+              <div class="circulo">
+                <i class="fa-solid fa-info"></i>
+              </div>
+            </div>
+            <h3>Soporte Clientes</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="icono color3">
+              <div class="circulo">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <h3>Creacion Tiendas</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              tempora, nostrum deserunt voluptatibus qui quisquam porro ullam
+              atque adipisci minus.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="habilidades">
+      <div class="contenedor-habi">
+        <h2>Habilidades</h2>
+
+        <div class="fila">
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="90">90%</div>
+                <h2>ANGULAR</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="80">80%</div>
+                <h2>.NET</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="70">70%</div>
+                <h2>MS SERVER</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="55">55%</div>
+                <h2>SWIFT</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="75">75%</div>
+                <h2>FIGMA</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="70">70%</div>
+                <h2>WORDPRESS</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRABAJOS -->
+    <section id="trabajos" class="trabajos">
+      <h2>Mis Trabajos</h2>
+
+      <nav>
+        <a
+          href="javascript:void(0)"
+          class="borde"
+          id="item"
+          onclick="verCategoria('item')"
+          >Todos</a
+        >
+        <a
+          href="javascript:void(0)"
+          class=""
+          id="desarrollo"
+          onclick="verCategoria('desarrollo')"
+        >
+          Desarrollo Web
+        </a>
+        <a
+          href="javascript:void(0)"
+          class=""
+          id="disenio"
+          onclick="verCategoria('disenio')"
+          >Diseño Web</a
+        >
+        <a
+          href="javascript:void(0)"
+          class=""
+          id="movil"
+          onclick="verCategoria('movil')"
+        >
+          Desarrollo Movil
+        </a>
+      </nav>
+
+      <div class="galeria">
+        <div class="item disenio">
+          <img src="./assets/img/trabajo1.png" alt="Trabajo 1" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item desarrollo">
+          <img src="./assets/img/trabajo2.png" alt="Trabajo 2" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item movil">
+          <img src="./assets/img/trabajo3.png" alt="Trabajo 3" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item movil">
+          <img src="./assets/img/trabajo4.png" alt="Trabajo 4" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item disenio">
+          <img src="./assets/img/trabajo5.png" alt="Trabajo 5" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item desarrollo">
+          <img src="./assets/img/trabajo6.png" alt="Trabajo 6" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item desarrollo">
+          <img src="./assets/img/trabajo7.png" alt="Trabajo 7" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item movil">
+          <img src="./assets/img/trabajo8.png" alt="Trabajo 8" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+        <div class="item disenio">
+          <img src="./assets/img/trabajo9.png" alt="Trabajo 9" />
+          <div class="info">
+            <h3>Titulo del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenedor-contacto">
+        <h2>Contacto</h2>
+        <div class="fila">
+          <div class="col">
+            <div class="info">
+              <h3>Email:</h3>
+              <p>gemillert4090@outlook.com</p>
+            </div>
+            <div class="info">
+              <h3>Teléfono:</h3>
+              <p>+51 964404392</p>
+            </div>
+            <div class="info">
+              <h3>País</h3>
+              <p>Perú</p>
+            </div>
+            <div class="info">
+              <h3>Ciudad</h3>
+              <p>Trujillo</p>
+            </div>
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Nombre" />
+            <input type="email" placeholder="Correo" />
+            <textarea
+              name=""
+              cols="30"
+              rows="12"
+              placeholder="Mensaje"
+            ></textarea>
+            <input type="submit" value="Enviar" class="btn" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 - Todos los Derechos Reservados a MillerDev</p>
+    </footer>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
